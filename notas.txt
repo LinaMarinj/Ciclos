@@ -5,6 +5,7 @@ Ciclos - estructuras de repetició - loops
 puede ser cualquier número y podra ser conocido o no por el usuario 
 
 - Son estructuras que se repiten bajo una condición booleana 
+-ciclo finito
 
 * Ciclo para -> for
 * Ciclo mientras -> while
@@ -25,16 +26,27 @@ Ciclo while (mientras):
 - Por defecto es un ciclo infinito
 - Está definido por un inicio de variable, una condición y un incremento 
 NOTA: antes de ejecutar el cógido asegurarse de tenr el incremento definido
+- Se puede migrar a un ciclo do-while
 
 - La variable de condición del ciclo mientras siempre se define por fuera del ciclo y antes del ciclo
 
 
 
 
+Ciclo while (mientras -> Centinela o bandera): cuando no se las veces a repetir.
 
+-El Centinela o bandera es una condición aplicada a la acción 
+- El Centinela o bandera modifica el valor booleano directamente
+-Siempre se ejecuta si el valor booleano es verdadero
+-Se puede migrar a un ciclo do-while 
+ 
 
 
 
 Ciclo do-while(repita):
 
 - Se aplica cuando se requiere que el codigo se ejecute al menos una vez 
+- Se aplica cuando se sabe y no se sabe la cantidad de veces a repetir
+- Por defecto es un ciclo infinito 
+- Se ejecuta si el valor booleano es verdadero
+- Siempre garantiza la ejecución del código minímo una vez

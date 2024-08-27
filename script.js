@@ -29,9 +29,39 @@
 
 
 
-let index = 10;
+/* let index = 10;
 
 while (index < 20) {
     console.log("Ciclo mientras");
     index++;
-}
+} */
+
+
+
+
+
+/* centinela o badera */
+/* let repetir = false;
+
+while (repetir); {
+    let estado = prompt("¿Desea repetir el código?: \n1 - Si \n2 - No");
+    if (estado == "2"){
+        repetir = false;
+    }
+    console.log("Estado del ciclo: " + repetir);
+
+} */
+
+
+    let repetir = false;
+    let index = 0;
+    do{
+        let estado = prompt("¿Desea repetir el código?: \n1 - Si \n2 - No");
+        if (estado == "2"){
+            repetir = true;
+        }
+        console.log("Estado del ciclo: " + repetir);
+        index++;
+   
+        
+    }while (repetir);
