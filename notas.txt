@@ -1,0 +1,40 @@
+Ciclos - estructuras de repetició - loops
+
+
+- Línea o bloque de codigo que se va a repetir n cantidad de veces, donde n 
+puede ser cualquier número y podra ser conocido o no por el usuario 
+
+- Son estructuras que se repiten bajo una condición booleana 
+
+* Ciclo para -> for
+* Ciclo mientras -> while
+* Ciclo repita ->do-while
+
+
+
+Ciclo for (para): 
+- Se aplica solo cuando se sabe la cantidad de veces a repetir 
+- Esta definido por un inicio de variable, una candición y un incremento 
+- Un cilo for se puede migrar a un ciclo while o un ciclo do-while 
+
+
+
+Ciclo while (mientras):
+
+- Se aplica cuando se sabe y no se sabe la cantidad de veces que se va a repetir
+- Por defecto es un ciclo infinito
+- Está definido por un inicio de variable, una condición y un incremento 
+NOTA: antes de ejecutar el cógido asegurarse de tenr el incremento definido
+
+- La variable de condición del ciclo mientras siempre se define por fuera del ciclo y antes del ciclo
+
+
+
+
+
+
+
+
+Ciclo do-while(repita):
+
+- Se aplica cuando se requiere que el codigo se ejecute al menos una vez 
